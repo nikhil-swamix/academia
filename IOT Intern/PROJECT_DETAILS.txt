@@ -1,0 +1,34 @@
+Features Implmented:
+ 1 Feature Extraction - Time domain 
+ 	- name of function is machineABC.get_data_features() where machineABC is instance of machine
+ 	- RETURNS [count,mean, std, min, 25%, 50%, 75%, max, var, skew, kurt] in dataframe
+ 2 Short Time Fourier Transform(STFT)
+ 	- implemented in machine.realtimeSTFT()
+ 	- alternatively also implemented in shortFFT which returns a value
+ 	- its realtime and visualize data for humans and data replay.
+ 	- windowSamples=1000,step=1,interval=30 
+ 		- windoSamples is time resolution
+ 		- step and interval control the playback speed for visualization
+ 	- can be used as realtime oscilliscope when connected with a sensor.
+ 	- frequency resolution not implemented
+ 	- self.df['Vibration_Az'][220000:300000] as i found the fault lies here and appear more early when function is run.
+ 
+ 3 Fast fourier transform(FFT)
+ 	- returns topFrequencies as list of length 10
+ 	- machine.fullFFT() method to find it
+ 	- returns DF and plot it 
+
+ 4 Fault point ANALYSIS
+ 	- machine.debug.get_fault_points() to get a list of probable points, 
+ 	- returns a list where sudden jerk is seen
+
+ 5 Plotting
+ 	- realtime oscilloscope is made to manually inspect for trouble shooting
+ 	- its alias is machine.realtimeSTFT()
+
+
+ HIGHLIGHTS and Pro moves:
+ 	- Class nesting implemented with ability to pass parent's self instance to any child. see "debug" subclass in "machine", see the __init__ function. used to preserve memory and avoide duplication and safe scoping 
+ 	- inspect.stack() module imported to precisely identify which function called and return its name, useful while debugging if code gets bigger. see thisfunc () after imports.
+ 	- properly throw errors if log file not set before calling functions.
+ 	- etc
