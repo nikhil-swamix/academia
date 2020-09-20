@@ -1,4 +1,4 @@
-#<title> Python LAMBDA Hacks </title>
+#Python LAMBDA Hacks
 you master lambda, you master shortcuts in python.Here is why:
 
     data=[(lambda x:x.text)(x.extract())  for x in soup.findAll('p') ]
