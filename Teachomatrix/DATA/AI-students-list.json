@@ -1,0 +1,508 @@
+{
+	"_id": "60425ec79cc38f001347a586",
+	"grading_pattern": {
+		"assignment": 50,
+		"quiz": 50
+	},
+	"teachers": [
+		{
+			"_id": "5f5d24cfbf9eec0012b2a6f9",
+			"name": "Shandar Ahmad",
+			"email": "shandar@jnu.ac.in",
+			"mobile": "7290889021"
+		}
+	],
+	"publish_final_results": false,
+	"status": true,
+	"is_deleted": false,
+	"name": "Artificial Intelligence 2021",
+	"description": "",
+	"created_by": "5f5d24cfbf9eec0012b2a6f9",
+	"created_at": "2021-03-05T16:39:35.757Z",
+	"__v": 23,
+	"students": [
+		{
+			"_id": "60425ec79cc38f001347a587",
+			"name": "JATIN VERMA",
+			"email": "jatinverma4621@gmail.com",
+			"mobile": "11111",
+			"is_admitted": true,
+			"user": {}
+		},
+		{
+			"_id": "60425ec79cc38f001347a588",
+			"name": "ANIMESH KERKETTA",
+			"email": "kekettaanimesh45@gmail.com",
+			"mobile": "11111",
+			"is_admitted": true,
+			"user": {}
+		},
+		{
+			"_id": "60425ec79cc38f001347a589",
+			"name": "AMAR NATH",
+			"email": "nthvpsn@gmail.com",
+			"mobile": "11111",
+			"is_admitted": true,
+			"user": {}
+		},
+		{
+			"_id": "60425ec79cc38f001347a58b",
+			"name": "BHAVISHYA RAJ",
+			"email": "brobotan@gmail.com",
+			"mobile": "11111",
+			"is_admitted": true,
+			"user": {}
+		},
+		{
+			"_id": "60425ec79cc38f001347a58c",
+			"name": "ANKIT TIWARI",
+			"email": "ankit.tiwari2000@gmail.com",
+			"mobile": "11111",
+			"is_admitted": true,
+			"user": {}
+		},
+		{
+			"_id": "60425ec79cc38f001347a58d",
+			"name": "ADITYA SHARMA",
+			"email": "aditya15116617@gmail.com",
+			"mobile": "11111",
+			"is_admitted": true,
+			"user": {}
+		},
+		{
+			"_id": "60425ec79cc38f001347a58e",
+			"name": "ANSHUL KUMAR",
+			"email": "anshul.chrs@gmail.com",
+			"mobile": "11111",
+			"is_admitted": true,
+			"user": {}
+		},
+		{
+			"_id": "60425ec79cc38f001347a58f",
+			"name": "AYUSH BHARTI",
+			"email": "ayush.jnu72000553@gmail.com",
+			"mobile": "11111",
+			"is_admitted": true,
+			"user": {}
+		},
+		{
+			"_id": "60425ec79cc38f001347a590",
+			"name": "SHUBHAM CHAUDHARY",
+			"email": "shubhamslash18@gmail.com",
+			"mobile": "11111",
+			"is_admitted": true,
+			"user": {}
+		},
+		{
+			"_id": "60425ec79cc38f001347a591",
+			"name": "SUJEET KUMAR",
+			"email": "sujeetmishra008@gmail.com",
+			"mobile": "11111",
+			"is_admitted": true,
+			"user": {}
+		},
+		{
+			"_id": "60425ec79cc38f001347a592",
+			"name": "ABHISHEK GAUTAM",
+			"email": "ab.brzy.420@gmail.com",
+			"mobile": "11111",
+			"is_admitted": false
+		},
+		{
+			"_id": "60425ec79cc38f001347a593",
+			"name": "DANESHWARI KANKANWADI",
+			"email": "daneshwarikankanwadi1599@gmail.com",
+			"mobile": "11111",
+			"is_admitted": true,
+			"user": {}
+		},
+		{
+			"_id": "60425ec79cc38f001347a594",
+			"name": "DIVYANSH JOSHI",
+			"email": "anniejoshi2000@gmail.com",
+			"mobile": "11111",
+			"is_admitted": true,
+			"user": {}
+		},
+		{
+			"_id": "60425ec79cc38f001347a595",
+			"name": "SAYANTAN ROY",
+			"email": "sayantanr08@gmail.com",
+			"mobile": "11111",
+			"is_admitted": true,
+			"user": {}
+		},
+		{
+			"_id": "60425ec79cc38f001347a596",
+			"name": "MARVIN V PRAKASH",
+			"email": "marvinprakash@gmail.com",
+			"mobile": "11111",
+			"is_admitted": true,
+			"user": {}
+		},
+		{
+			"_id": "60425ec79cc38f001347a597",
+			"name": "RITIK SHARMA",
+			"email": "sritik127@gmail.com",
+			"mobile": "11111",
+			"is_admitted": true,
+			"user": {}
+		},
+		{
+			"_id": "60425ec79cc38f001347a598",
+			"name": "ARUN PRATAP SINGH",
+			"email": "arunpratapsingh24128@gmail.com",
+			"mobile": "11111",
+			"is_admitted": true,
+			"user": {}
+		},
+		{
+			"_id": "60425ec79cc38f001347a599",
+			"name": "PINAKI DAS",
+			"email": "pinakidas2203@gmail.com",
+			"mobile": "11111",
+			"is_admitted": true,
+			"user": {}
+		},
+		{
+			"_id": "60425ec79cc38f001347a59c",
+			"name": "GARGI SINGH",
+			"email": "singh.gargi67@gmail.com",
+			"mobile": "11111",
+			"is_admitted": true,
+			"user": {}
+		},
+		{
+			"_id": "60425ec79cc38f001347a59d",
+			"name": "KANALA VENKATESH",
+			"email": "kanalavenkatesh7@gmail.com",
+			"mobile": "11111",
+			"is_admitted": true,
+			"user": {}
+		},
+		{
+			"_id": "60425ec79cc38f001347a59e",
+			"name": "AJAY VERMA",
+			"email": "vermaajay71727@gmail.com",
+			"mobile": "11111",
+			"is_admitted": true,
+			"user": {}
+		},
+		{
+			"_id": "60425ec79cc38f001347a5a0",
+			"name": "NIKHIL SWAMI",
+			"email": "nikhilswami1@gmail.com",
+			"mobile": "11111",
+			"is_admitted": true,
+			"user": {}
+		},
+		{
+			"_id": "60425ec79cc38f001347a5a1",
+			"name": "AMAN KUMAR",
+			"email": "kardamrajbir.rs@gmail.com",
+			"mobile": "11111",
+			"is_admitted": true,
+			"user": {}
+		},
+		{
+			"_id": "60425ec79cc38f001347a5a2",
+			"name": "SHISH PAL JATAV",
+			"email": "shishpalverma777@gmail.com",
+			"mobile": "11111",
+			"is_admitted": true,
+			"user": {}
+		},
+		{
+			"_id": "60425ec79cc38f001347a5a3",
+			"name": "SHIVAM JHA",
+			"email": "shivamjha1315@gmail.com",
+			"mobile": "11111",
+			"is_admitted": true,
+			"user": {}
+		},
+		{
+			"_id": "60425ec79cc38f001347a5a4",
+			"name": "ADITYA SINGLA",
+			"email": "aditya.21.singla@gmail.com",
+			"mobile": "11111",
+			"is_admitted": true,
+			"user": {}
+		},
+		{
+			"_id": "60425ec79cc38f001347a5a5",
+			"name": "AKANKSHA MARSKOLE",
+			"email": "akankshamarskole@gmail.com",
+			"mobile": "11111",
+			"is_admitted": true,
+			"user": {}
+		},
+		{
+			"_id": "60425ec79cc38f001347a5a6",
+			"name": "MANSI MAHOLIA",
+			"email": "mansi.maholia2001@gmail.com",
+			"mobile": "11111",
+			"is_admitted": true,
+			"user": {}
+		},
+		{
+			"_id": "60425ec79cc38f001347a5a7",
+			"name": "VIKAS",
+			"email": "vikasheroes@gmail.com",
+			"mobile": "11111",
+			"is_admitted": true,
+			"user": {}
+		},
+		{
+			"_id": "60425ec79cc38f001347a5a8",
+			"name": "RITIKA JHA",
+			"email": "08ritikajha@gmail.com",
+			"mobile": "11111",
+			"is_admitted": true,
+			"user": {}
+		},
+		{
+			"_id": "60425ec79cc38f001347a5a9",
+			"name": "LAKSHIT SHARMA",
+			"email": "lakshitsharmalucky@gmail.com",
+			"mobile": "11111",
+			"is_admitted": true,
+			"user": {}
+		},
+		{
+			"_id": "60425ec79cc38f001347a5aa",
+			"name": "ARYA DWIVEDI",
+			"email": "aryad27@gmail.com",
+			"mobile": "11111",
+			"is_admitted": true,
+			"user": {}
+		},
+		{
+			"_id": "60425ec79cc38f001347a5ab",
+			"name": "DEVASHISH TRIPATHI",
+			"email": "dev99.tripathi@gmail.com",
+			"mobile": "11111",
+			"is_admitted": true,
+			"user": {}
+		},
+		{
+			"_id": "60425ec79cc38f001347a5ac",
+			"name": "DEEPANSHU JAIN",
+			"email": "deepanshu20178@gmail.com",
+			"mobile": "11111",
+			"is_admitted": true,
+			"user": {}
+		},
+		{
+			"_id": "60425ec79cc38f001347a5ad",
+			"name": "AAYUSH NEELKANTH",
+			"email": "aayush.neelkanth@gmail.com",
+			"mobile": "11111",
+			"is_admitted": true,
+			"user": {}
+		},
+		{
+			"_id": "60425ec79cc38f001347a5ae",
+			"name": "THANDU SURYA CHARAN",
+			"email": "suryacharan3107@gmail.com",
+			"mobile": "11111",
+			"is_admitted": true,
+			"user": {}
+		},
+		{
+			"_id": "60425ec79cc38f001347a5af",
+			"name": "PEEHOO JAIN",
+			"email": "peehoojain2@gmail.com",
+			"mobile": "11111",
+			"is_admitted": true,
+			"user": {}
+		},
+		{
+			"_id": "60425ec79cc38f001347a5b0",
+			"name": "SHREYAS ARORA",
+			"email": "shregro@gmail.com",
+			"mobile": "11111",
+			"is_admitted": true,
+			"user": {}
+		},
+		{
+			"_id": "60425ec79cc38f001347a5b1",
+			"name": "ANIKET KISHORE",
+			"email": "kishoreani9878@gmail.com",
+			"mobile": "11111",
+			"is_admitted": true,
+			"user": {}
+		},
+		{
+			"_id": "60425ec79cc38f001347a5b2",
+			"name": "SHOBHIT KUMAR",
+			"email": "shobhitk977@gmail.com",
+			"mobile": "11111",
+			"is_admitted": false
+		},
+		{
+			"_id": "60425ec79cc38f001347a5b3",
+			"name": "AMAN SINGH",
+			"email": "raghuwanshi1aman@gmail.com",
+			"mobile": "11111",
+			"is_admitted": true,
+			"user": {}
+		},
+		{
+			"_id": "60425ec79cc38f001347a5b4",
+			"name": "SHYAM SUNDER",
+			"email": "shyamssbgk29@gmail.com",
+			"mobile": "11111",
+			"is_admitted": true,
+			"user": {}
+		},
+		{
+			"_id": "60425ec79cc38f001347a5b5",
+			"name": "SANYA AGRAWAL",
+			"email": "agrawalsanya.ece@gmail.com",
+			"mobile": "11111",
+			"is_admitted": true,
+			"user": {}
+		},
+		{
+			"_id": "60425ec79cc38f001347a5b6",
+			"name": "KASHISH KATARA",
+			"email": "kashishkatara1901@gmail.com",
+			"mobile": "11111",
+			"is_admitted": true,
+			"user": {}
+		},
+		{
+			"_id": "60425ec79cc38f001347a5b7",
+			"name": "AMAN KUMAR SINGH",
+			"email": "shivcool1610@gmail.com",
+			"mobile": "11111",
+			"is_admitted": true,
+			"user": {}
+		},
+		{
+			"_id": "60425ec79cc38f001347a5b8",
+			"name": "MANAS AGARWAL",
+			"email": "manasmrt10@gmail.com",
+			"mobile": "11111",
+			"is_admitted": true,
+			"user": {}
+		},
+		{
+			"_id": "60425ec79cc38f001347a5b9",
+			"name": "BADAL RAJ BIJAWAT",
+			"email": "badalrajbijawat@gmail.com",
+			"mobile": "11111",
+			"is_admitted": true,
+			"user": {}
+		},
+		{
+			"_id": "60425ec79cc38f001347a5bb",
+			"name": "VRISHABHDHWAJ MAHARSHI",
+			"email": "vrishabhdhwajm@gmail.com",
+			"mobile": "11111",
+			"is_admitted": false,
+			"user": {}
+		},
+		{
+			"_id": "60425ec79cc38f001347a5bc",
+			"name": "SPARSH TEWATIA",
+			"email": "sparshteotia5@gmail.com",
+			"mobile": "11111",
+			"is_admitted": true,
+			"user": {}
+		},
+		{
+			"_id": "60425ec79cc38f001347a5bd",
+			"name": "ISHAN DHAWAN",
+			"email": "ish.dha.15@gmail.com",
+			"mobile": "11111",
+			"is_admitted": true,
+			"user": {}
+		},
+		{
+			"_id": "60425ec79cc38f001347a5be",
+			"name": "SHIDHARTH ANAND",
+			"email": "shidharth030599@gmail.com",
+			"mobile": "11111",
+			"is_admitted": false
+		},
+		{
+			"_id": "60425ec79cc38f001347a5bf",
+			"name": "TARUN KUMAR",
+			"email": "tarunkeshukumar@gmail.com",
+			"mobile": "11111",
+			"is_admitted": true,
+			"user": {
+				"profile_picture": "https://teachomatrix.tk/uploads/profile/1615181987270-meee.webp"
+			}
+		},
+		{
+			"_id": "60426c109cc38f001347a5d4",
+			"name": "Rohan kumar",
+			"email": "rohan60_soe@jnu.ac.in",
+			"mobile": "7374091655",
+			"is_admitted": true,
+			"user": {
+				"profile_picture": "https://teachomatrix.tk/uploads/profile/1614967003866-passport_size (2).webp"
+			}
+		},
+		{
+			"_id": "604271a9fd1c110013f90be3",
+			"name": "Kushal Poddar",
+			"email": "kushal160200@gmail.com",
+			"mobile": "111",
+			"is_admitted": true,
+			"user": {
+				"profile_picture": "https://teachomatrix.tk/uploads/profile/1614967505371-PIC.webp"
+			}
+		},
+		{
+			"_id": "6042728bfd1c110013f90be5",
+			"name": "R SHRAVAN",
+			"email": "shrava72_soe@jnu.ac.in",
+			"mobile": "11111",
+			"is_admitted": true,
+			"user": {}
+		},
+		{
+			"_id": "6042fa76fd1c110013f90c85",
+			"name": "Arvind Karir",
+			"email": "arvindkarir001@gmail.com",
+			"mobile": "11111",
+			"is_admitted": true,
+			"user": {}
+		},
+		{
+			"_id": "60430cc1fd1c110013f90c98",
+			"name": "NAKKA PANDURANGA VIVEK",
+			"email": "npvivek01@gmail.com",
+			"mobile": "11111",
+			"is_admitted": true,
+			"user": {}
+		},
+		{
+			"_id": "60430cc1fd1c110013f90c99",
+			"name": "GORUGANTHU ADITYA SAI KAMAL",
+			"email": "adityasaikamal79@gmail.com",
+			"mobile": "11111",
+			"is_admitted": true,
+			"user": {}
+		},
+		{
+			"_id": "60430cc1fd1c110013f90c9a",
+			"name": "ADITYA RAJ SINGH BHADORIYA",
+			"email": "bhadoriya5552@gmail.com",
+			"mobile": "11111",
+			"is_admitted": true,
+			"user": {}
+		},
+		{
+			"_id": "604526d2fd1c110013f91145",
+			"name": "Aditya Kumar",
+			"email": "aditya82_soe@jnu.ac.in",
+			"mobile": "11111",
+			"is_admitted": true,
+			"user": {}
+		}
+	]
+}

@@ -27,7 +27,7 @@ Features Implmented:
  	- its alias is machine.realtimeSTFT()
 
 
- HIGHLIGHTS and Pro moves:
+ HIGHLIGHTS :
  	- Class nesting implemented with ability to pass parent's self instance to any child. see "debug" subclass in "machine", see the __init__ function. used to preserve memory and avoide duplication and safe scoping 
  	- inspect.stack() module imported to precisely identify which function called and return its name, useful while debugging if code gets bigger. see thisfunc () after imports.
  	- properly throw errors if log file not set before calling functions.

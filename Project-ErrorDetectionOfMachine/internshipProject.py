@@ -4,7 +4,7 @@ import pandas as pd
 import numpy as np
 import datetime
 import inspect
-import changefinder
+# import changefinder
 
 
 def simpleGraph(y,x=0,label="lable not set"):

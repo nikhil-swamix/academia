@@ -1,0 +1,3276 @@
+question_0_key | While formulating search based problem solving agents, what level of abstraction is appropriate?
+{
+    "[3]": 47,
+    "[1]": 6,
+    "[2]": 1,
+    "[0]": 3
+}
+question_1_key | Abstraction of intelligent agent by definition means leaving out details from its formulation.
+{
+    "False": 3,
+    "True": 54
+}
+question_2_key | A standardized problem formulation refers to
+{
+    "[3]": 6,
+    "[0]": 8,
+    "[1]": 25,
+    "[2]": 17
+}
+question_3_key | Which of the following cannot be described as a Grid search problem solving agent?
+{
+    "[3]": 56,
+    "[2]": 1
+}
+question_4_key | What is the number of unique states possible in the state space of a hypothetical 3x3 non-obstacle grids Sokoban puzzle with only 2 boxes to move?
+{
+    "[1]": 1,
+    "[3]": 55,
+    "[0]": 1
+}
+{
+    "_id": "6085a0cd0e4abe0013586e0f",
+    "end_time": "2021-04-27T02:30:00.000Z",
+    "status": 1,
+    "question_banks": [
+        "608597e60e4abe0013586cfa"
+    ],
+    "isResultsPublished": true,
+    "name": "AI-formulating search problems",
+    "description": "",
+    "author": {
+        "_id": "5f5d24cfbf9eec0012b2a6f9",
+        "name": "Shandar Ahmad"
+    },
+    "start_time": "2021-04-26T02:30:00.000Z",
+    "sections": [
+        {
+            "_id": "6085a0cd0e4abe0013586e10",
+            "name": "Main Section",
+            "description": "",
+            "questions": [
+                {
+                    "difficulty": 1,
+                    "files": [],
+                    "_id": "6085988b0e4abe0013586cfb",
+                    "question": "While formulating search based problem solving agents, what level of abstraction is appropriate?",
+                    "type": "MCQ",
+                    "mcq": {
+                        "options": [
+                            {
+                                "_id": "6085988b0e4abe0013586cfd",
+                                "name": "It should be as general as possible"
+                            },
+                            {
+                                "_id": "6085988b0e4abe0013586cfe",
+                                "name": "It should not leave the attainment of Goal state impossible"
+                            },
+                            {
+                                "_id": "6085988b0e4abe0013586cff",
+                                "name": "It should not drop any details about the action sequences to be undertaken"
+                            },
+                            {
+                                "_id": "6085988b0e4abe0013586d00",
+                                "name": "All of these"
+                            }
+                        ]
+                    },
+                    "created_at": "2021-04-25T16:27:55.839Z"
+                },
+                {
+                    "difficulty": 1,
+                    "files": [],
+                    "_id": "608598e70e4abe0013586d08",
+                    "question": "Abstraction of intelligent agent by definition means leaving out details from its formulation.",
+                    "type": "TF",
+                    "tf": {},
+                    "created_at": "2021-04-25T16:29:27.397Z"
+                },
+                {
+                    "difficulty": 1,
+                    "files": [],
+                    "_id": "608599730e4abe0013586d0e",
+                    "question": "A standardized problem formulation refers to",
+                    "type": "MCQ",
+                    "mcq": {
+                        "options": [
+                            {
+                                "_id": "608599730e4abe0013586d10",
+                                "name": "Exact concrete problem to be implemented"
+                            },
+                            {
+                                "_id": "608599730e4abe0013586d11",
+                                "name": "a formulation that can be applied to many real world problems"
+                            },
+                            {
+                                "_id": "608599730e4abe0013586d12",
+                                "name": "maximization of level of abstraction"
+                            },
+                            {
+                                "_id": "608599730e4abe0013586d13",
+                                "name": "a problem with specific Goal state"
+                            }
+                        ]
+                    },
+                    "created_at": "2021-04-25T16:31:47.796Z"
+                },
+                {
+                    "difficulty": 1,
+                    "files": [],
+                    "_id": "60859a0d0e4abe0013586d1d",
+                    "question": "Which of the following cannot be described as a Grid search problem solving agent?",
+                    "type": "MCQ",
+                    "mcq": {
+                        "options": [
+                            {
+                                "_id": "60859a0d0e4abe0013586d1f",
+                                "name": "Sokoban puzzle"
+                            },
+                            {
+                                "_id": "60859a0d0e4abe0013586d20",
+                                "name": "Sliding tile puzzle"
+                            },
+                            {
+                                "_id": "60859a0d0e4abe0013586d21",
+                                "name": "Knuth's conjecture"
+                            },
+                            {
+                                "_id": "60859a0d0e4abe0013586d22",
+                                "name": "A game playing robot"
+                            }
+                        ]
+                    },
+                    "created_at": "2021-04-25T16:34:21.255Z"
+                },
+                {
+                    "difficulty": 1,
+                    "files": [],
+                    "_id": "60859ba30e4abe0013586d2d",
+                    "question": "What is the number of unique states possible in the state space of a hypothetical 3x3 non-obstacle grids Sokoban puzzle with only 2 boxes to move?",
+                    "type": "MCQ",
+                    "mcq": {
+                        "options": [
+                            {
+                                "_id": "60859ba30e4abe0013586d2f",
+                                "name": "18"
+                            },
+                            {
+                                "_id": "60859ba30e4abe0013586d30",
+                                "name": "36"
+                            },
+                            {
+                                "_id": "60859ba30e4abe0013586d31",
+                                "name": "72"
+                            },
+                            {
+                                "_id": "60859ba30e4abe0013586d32",
+                                "name": "324"
+                            }
+                        ]
+                    },
+                    "created_at": "2021-04-25T16:41:07.291Z"
+                }
+            ],
+            "marking_scheme": {
+                "_id": "6085a0cd0e4abe0013586e2b",
+                "positive": 1,
+                "negative": 0
+            }
+        }
+    ],
+    "classroom": {
+        "_id": "60425ec79cc38f001347a586",
+        "name": "Artificial Intelligence 2021"
+    },
+    "created_at": "2021-04-25T17:03:09.985Z",
+    "submits": [
+        {
+            "window_inactive": [],
+            "_id": "608646d20e4abe0013586f64",
+            "submitted_by": "604264a09cc38f001347a5ca",
+            "sections": [
+                {
+                    "_id": "608646d20e4abe0013586f65",
+                    "section_id": 0,
+                    "questions": [
+                        {
+                            "files": [],
+                            "_id": "608646d20e4abe0013586f66",
+                            "question_id": 0,
+                            "answer": [
+                                3
+                            ]
+                        },
+                        {
+                            "files": [],
+                            "_id": "608646d20e4abe0013586f67",
+                            "question_id": 1,
+                            "answer": false
+                        },
+                        {
+                            "files": [],
+                            "_id": "608646d20e4abe0013586f68",
+                            "question_id": 2,
+                            "answer": [
+                                3
+                            ]
+                        },
+                        {
+                            "files": [],
+                            "_id": "608646d20e4abe0013586f69",
+                            "question_id": 3,
+                            "answer": [
+                                3
+                            ]
+                        },
+                        {
+                            "files": [],
+                            "_id": "608646d20e4abe0013586f6a",
+                            "question_id": 4,
+                            "answer": [
+                                1
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "created_at": "2021-04-26T04:51:30.603Z"
+        },
+        {
+            "window_inactive": [
+                "2021-04-26T05:20:36.944Z"
+            ],
+            "_id": "608653ab0e4abe0013586fd1",
+            "submitted_by": "604260149cc38f001347a5c0",
+            "sections": [
+                {
+                    "_id": "608653ab0e4abe0013586fd2",
+                    "section_id": 0,
+                    "questions": [
+                        {
+                            "files": [],
+                            "_id": "608653ab0e4abe0013586fd3",
+                            "question_id": 0,
+                            "answer": [
+                                3
+                            ]
+                        },
+                        {
+                            "files": [],
+                            "_id": "608653ab0e4abe0013586fd4",
+                            "question_id": 1,
+                            "answer": true
+                        },
+                        {
+                            "files": [],
+                            "_id": "608653ab0e4abe0013586fd5",
+                            "question_id": 2,
+                            "answer": [
+                                0
+                            ]
+                        },
+                        {
+                            "files": [],
+                            "_id": "608653ab0e4abe0013586fd6",
+                            "question_id": 3,
+                            "answer": [
+                                3
+                            ]
+                        },
+                        {
+                            "files": [],
+                            "_id": "608653ab0e4abe0013586fd7",
+                            "question_id": 4,
+                            "answer": [
+                                3
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "created_at": "2021-04-26T05:46:19.268Z"
+        },
+        {
+            "window_inactive": [],
+            "_id": "6086baa90e4abe0013587103",
+            "submitted_by": "5f68bcea5234fc0012d1d497",
+            "sections": [
+                {
+                    "_id": "6086baa90e4abe0013587104",
+                    "section_id": 0,
+                    "questions": [
+                        {
+                            "files": [],
+                            "_id": "6086baa90e4abe0013587105",
+                            "question_id": 0,
+                            "answer": [
+                                1
+                            ]
+                        },
+                        {
+                            "files": [],
+                            "_id": "6086baa90e4abe0013587106",
+                            "question_id": 1,
+                            "answer": true
+                        },
+                        {
+                            "files": [],
+                            "_id": "6086baa90e4abe0013587107",
+                            "question_id": 2,
+                            "answer": [
+                                0
+                            ]
+                        },
+                        {
+                            "files": [],
+                            "_id": "6086baa90e4abe0013587108",
+                            "question_id": 3,
+                            "answer": [
+                                3
+                            ]
+                        },
+                        {
+                            "files": [],
+                            "_id": "6086baa90e4abe0013587109",
+                            "question_id": 4,
+                            "answer": [
+                                3
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "created_at": "2021-04-26T13:05:45.092Z"
+        },
+        {
+            "window_inactive": [
+                "2021-04-26T12:58:30.354Z"
+            ],
+            "_id": "6086baa90e4abe0013587111",
+            "submitted_by": "6044dfb2fd1c110013f90cd9",
+            "sections": [
+                {
+                    "_id": "6086baa90e4abe0013587112",
+                    "section_id": 0,
+                    "questions": [
+                        {
+                            "files": [],
+                            "_id": "6086baa90e4abe0013587113",
+                            "question_id": 0,
+                            "answer": [
+                                1
+                            ]
+                        },
+                        {
+                            "files": [],
+                            "_id": "6086baa90e4abe0013587114",
+                            "question_id": 1,
+                            "answer": true
+                        },
+                        {
+                            "files": [],
+                            "_id": "6086baa90e4abe0013587115",
+                            "question_id": 2,
+                            "answer": [
+                                0
+                            ]
+                        },
+                        {
+                            "files": [],
+                            "_id": "6086baa90e4abe0013587116",
+                            "question_id": 3,
+                            "answer": [
+                                3
+                            ]
+                        },
+                        {
+                            "files": [],
+                            "_id": "6086baa90e4abe0013587117",
+                            "question_id": 4,
+                            "answer": [
+                                3
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "created_at": "2021-04-26T13:05:45.800Z"
+        },
+        {
+            "window_inactive": [],
+            "_id": "6086ce300e4abe001358716d",
+            "submitted_by": "604304d6fd1c110013f90c8e",
+            "sections": [
+                {
+                    "_id": "6086ce300e4abe001358716e",
+                    "section_id": 0,
+                    "questions": [
+                        {
+                            "files": [],
+                            "_id": "6086ce300e4abe001358716f",
+                            "question_id": 0,
+                            "answer": [
+                                3
+                            ]
+                        },
+                        {
+                            "files": [],
+                            "_id": "6086ce300e4abe0013587170",
+                            "question_id": 1,
+                            "answer": false
+                        },
+                        {
+                            "files": [],
+                            "_id": "6086ce300e4abe0013587171",
+                            "question_id": 2,
+                            "answer": [
+                                1
+                            ]
+                        },
+                        {
+                            "files": [],
+                            "_id": "6086ce300e4abe0013587172",
+                            "question_id": 3,
+                            "answer": [
+                                3
+                            ]
+                        },
+                        {
+                            "files": [],
+                            "_id": "6086ce300e4abe0013587173",
+                            "question_id": 4,
+                            "answer": [
+                                3
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "created_at": "2021-04-26T14:29:04.221Z"
+        },
+        {
+            "window_inactive": [
+                "2021-04-26T16:40:21.743Z",
+                "2021-04-26T16:40:26.400Z",
+                "2021-04-26T16:40:32.199Z",
+                "2021-04-26T16:40:38.011Z"
+            ],
+            "_id": "6086ed120e4abe00135871dc",
+            "submitted_by": "6044ea9ffd1c110013f91138",
+            "sections": [
+                {
+                    "_id": "6086ed120e4abe00135871dd",
+                    "section_id": 0,
+                    "questions": [
+                        {
+                            "files": [],
+                            "_id": "6086ed120e4abe00135871de",
+                            "question_id": 0,
+                            "answer": [
+                                3
+                            ]
+                        },
+                        {
+                            "files": [],
+                            "_id": "6086ed120e4abe00135871df",
+                            "question_id": 1,
+                            "answer": true
+                        },
+                        {
+                            "files": [],
+                            "_id": "6086ed120e4abe00135871e0",
+                            "question_id": 2,
+                            "answer": [
+                                2
+                            ]
+                        },
+                        {
+                            "files": [],
+                            "_id": "6086ed120e4abe00135871e1",
+                            "question_id": 3,
+                            "answer": [
+                                3
+                            ]
+                        },
+                        {
+                            "files": [],
+                            "_id": "6086ed120e4abe00135871e2",
+                            "question_id": 4,
+                            "answer": [
+                                3
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "created_at": "2021-04-26T16:40:50.567Z"
+        },
+        {
+            "window_inactive": [],
+            "_id": "6086f1540e4abe001358723f",
+            "submitted_by": "604263969cc38f001347a5c6",
+            "sections": [
+                {
+                    "_id": "6086f1540e4abe0013587240",
+                    "section_id": 0,
+                    "questions": [
+                        {
+                            "files": [],
+                            "_id": "6086f1540e4abe0013587241",
+                            "question_id": 0,
+                            "answer": [
+                                3
+                            ]
+                        },
+                        {
+                            "files": [],
+                            "_id": "6086f1540e4abe0013587242",
+                            "question_id": 1,
+                            "answer": true
+                        },
+                        {
+                            "files": [],
+                            "_id": "6086f1540e4abe0013587243",
+                            "question_id": 2,
+                            "answer": [
+                                0
+                            ]
+                        },
+                        {
+                            "files": [],
+                            "_id": "6086f1540e4abe0013587244",
+                            "question_id": 3,
+                            "answer": [
+                                3
+                            ]
+                        },
+                        {
+                            "files": [],
+                            "_id": "6086f1540e4abe0013587245",
+                            "question_id": 4,
+                            "answer": [
+                                3
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "created_at": "2021-04-26T16:59:00.302Z"
+        },
+        {
+            "window_inactive": [],
+            "_id": "6086f3b20e4abe0013587269",
+            "submitted_by": "60433c21fd1c110013f90cb3",
+            "sections": [
+                {
+                    "_id": "6086f3b20e4abe001358726a",
+                    "section_id": 0,
+                    "questions": [
+                        {
+                            "files": [],
+                            "_id": "6086f3b20e4abe001358726b",
+                            "question_id": 0,
+                            "answer": [
+                                1
+                            ]
+                        },
+                        {
+                            "files": [],
+                            "_id": "6086f3b20e4abe001358726c",
+                            "question_id": 1,
+                            "answer": true
+                        },
+                        {
+                            "files": [],
+                            "_id": "6086f3b20e4abe001358726d",
+                            "question_id": 2,
+                            "answer": [
+                                0
+                            ]
+                        },
+                        {
+                            "files": [],
+                            "_id": "6086f3b20e4abe001358726e",
+                            "question_id": 3,
+                            "answer": [
+                                3
+                            ]
+                        },
+                        {
+                            "files": [],
+                            "_id": "6086f3b20e4abe001358726f",
+                            "question_id": 4,
+                            "answer": [
+                                3
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "created_at": "2021-04-26T17:09:06.093Z"
+        },
+        {
+            "window_inactive": [],
+            "_id": "6086f5ad0e4abe00135872f8",
+            "submitted_by": "60453661fd1c110013f9114f",
+            "sections": [
+                {
+                    "_id": "6086f5ad0e4abe00135872f9",
+                    "section_id": 0,
+                    "questions": [
+                        {
+                            "files": [],
+                            "_id": "6086f5ad0e4abe00135872fa",
+                            "question_id": 0,
+                            "answer": [
+                                1
+                            ]
+                        },
+                        {
+                            "files": [],
+                            "_id": "6086f5ad0e4abe00135872fb",
+                            "question_id": 1,
+                            "answer": true
+                        },
+                        {
+                            "files": [],
+                            "_id": "6086f5ad0e4abe00135872fc",
+                            "question_id": 2,
+                            "answer": [
+                                0
+                            ]
+                        },
+                        {
+                            "files": [],
+                            "_id": "6086f5ad0e4abe00135872fd",
+                            "question_id": 3,
+                            "answer": [
+                                3
+                            ]
+                        },
+                        {
+                            "files": [],
+                            "_id": "6086f5ad0e4abe00135872fe",
+                            "question_id": 4,
+                            "answer": [
+                                3
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "created_at": "2021-04-26T17:17:33.881Z"
+        },
+        {
+            "window_inactive": [
+                "2021-04-26T17:15:13.959Z"
+            ],
+            "_id": "6086f9470e4abe0013587314",
+            "submitted_by": "60430de1fd1c110013f90c9e",
+            "sections": [
+                {
+                    "_id": "6086f9470e4abe0013587315",
+                    "section_id": 0,
+                    "questions": [
+                        {
+                            "files": [],
+                            "_id": "6086f9470e4abe0013587316",
+                            "question_id": 0,
+                            "answer": [
+                                1
+                            ]
+                        },
+                        {
+                            "files": [],
+                            "_id": "6086f9470e4abe0013587317",
+                            "question_id": 1,
+                            "answer": false
+                        },
+                        {
+                            "files": [],
+                            "_id": "6086f9470e4abe0013587318",
+                            "question_id": 2,
+                            "answer": [
+                                0
+                            ]
+                        },
+                        {
+                            "files": [],
+                            "_id": "6086f9470e4abe0013587319",
+                            "question_id": 3,
+                            "answer": [
+                                3
+                            ]
+                        },
+                        {
+                            "files": [],
+                            "_id": "6086f9470e4abe001358731a",
+                            "question_id": 4,
+                            "answer": [
+                                3
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "created_at": "2021-04-26T17:32:55.778Z"
+        },
+        {
+            "window_inactive": [
+                "2021-04-26T17:13:05.552Z",
+                "2021-04-26T17:13:37.689Z",
+                "2021-04-26T17:15:02.021Z",
+                "2021-04-26T17:23:04.645Z",
+                "2021-04-26T17:23:30.530Z",
+                "2021-04-26T17:24:03.846Z",
+                "2021-04-26T17:24:49.828Z",
+                "2021-04-26T17:25:09.859Z",
+                "2021-04-26T17:25:11.509Z",
+                "2021-04-26T17:25:31.114Z",
+                "2021-04-26T17:25:32.467Z",
+                "2021-04-26T17:25:49.565Z",
+                "2021-04-26T17:26:33.105Z",
+                "2021-04-26T17:32:59.540Z",
+                "2021-04-26T17:39:19.819Z",
+                "2021-04-26T17:40:14.191Z",
+                "2021-04-26T17:40:50.914Z",
+                "2021-04-26T17:42:18.803Z",
+                "2021-04-26T17:42:39.406Z",
+                "2021-04-26T17:43:37.331Z"
+            ],
+            "_id": "6086fbe80e4abe0013587329",
+            "submitted_by": "6044e7e9fd1c110013f91109",
+            "sections": [
+                {
+                    "_id": "6086fbe80e4abe001358732a",
+                    "section_id": 0,
+                    "questions": [
+                        {
+                            "files": [],
+                            "_id": "6086fbe80e4abe001358732b",
+                            "question_id": 0,
+                            "answer": [
+                                2
+                            ]
+                        },
+                        {
+                            "files": [],
+                            "_id": "6086fbe80e4abe001358732c",
+                            "question_id": 1,
+                            "answer": true
+                        },
+                        {
+                            "files": [],
+                            "_id": "6086fbe80e4abe001358732d",
+                            "question_id": 2,
+                            "answer": [
+                                3
+                            ]
+                        },
+                        {
+                            "files": [],
+                            "_id": "6086fbe80e4abe001358732e",
+                            "question_id": 3,
+                            "answer": [
+                                2
+                            ]
+                        },
+                        {
+                            "files": [],
+                            "_id": "6086fbe80e4abe001358732f",
+                            "question_id": 4,
+                            "answer": [
+                                3
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "created_at": "2021-04-26T17:44:08.689Z"
+        },
+        {
+            "window_inactive": [],
+            "_id": "6086fde70e4abe001358735c",
+            "submitted_by": "6043075ffd1c110013f90c90",
+            "sections": [
+                {
+                    "_id": "6086fde70e4abe001358735d",
+                    "section_id": 0,
+                    "questions": [
+                        {
+                            "files": [],
+                            "_id": "6086fde70e4abe001358735e",
+                            "question_id": 0,
+                            "answer": [
+                                1
+                            ]
+                        },
+                        {
+                            "files": [],
+                            "_id": "6086fde70e4abe001358735f",
+                            "question_id": 1,
+                            "answer": true
+                        },
+                        {
+                            "files": [],
+                            "_id": "6086fde70e4abe0013587360",
+                            "question_id": 2,
+                            "answer": [
+                                3
+                            ]
+                        },
+                        {
+                            "files": [],
+                            "_id": "6086fde70e4abe0013587361",
+                            "question_id": 3,
+                            "answer": [
+                                3
+                            ]
+                        },
+                        {
+                            "files": [],
+                            "_id": "6086fde70e4abe0013587362",
+                            "question_id": 4,
+                            "answer": [
+                                0
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "created_at": "2021-04-26T17:52:39.674Z"
+        },
+        {
+            "window_inactive": [
+                "2021-04-26T15:07:00.306Z",
+                "2021-04-26T15:07:18.861Z",
+                "2021-04-26T15:10:28.638Z",
+                "2021-04-26T15:11:27.316Z",
+                "2021-04-26T15:12:28.584Z",
+                "2021-04-26T15:20:36.945Z",
+                "2021-04-26T16:28:16.571Z",
+                "2021-04-26T16:36:15.199Z",
+                "2021-04-26T16:38:57.444Z",
+                "2021-04-26T16:39:20.565Z",
+                "2021-04-26T16:41:09.486Z",
+                "2021-04-26T16:44:30.721Z",
+                "2021-04-26T16:45:30.654Z",
+                "2021-04-26T17:04:05.004Z",
+                "2021-04-26T17:07:05.965Z",
+                "2021-04-26T17:10:05.207Z",
+                "2021-04-26T17:22:13.020Z",
+                "2021-04-26T17:30:03.237Z",
+                "2021-04-26T17:33:41.942Z",
+                "2021-04-26T17:35:37.988Z",
+                "2021-04-26T17:46:19.315Z"
+            ],
+            "_id": "6086fef00e4abe001358736a",
+            "submitted_by": "604491acfd1c110013f90cd3",
+            "sections": [
+                {
+                    "_id": "6086fef00e4abe001358736b",
+                    "section_id": 0,
+                    "questions": [
+                        {
+                            "files": [],
+                            "_id": "6086fef00e4abe001358736c",
+                            "question_id": 0,
+                            "answer": [
+                                3
+                            ]
+                        },
+                        {
+                            "files": [],
+                            "_id": "6086fef00e4abe001358736d",
+                            "question_id": 1,
+                            "answer": true
+                        },
+                        {
+                            "files": [],
+                            "_id": "6086fef00e4abe001358736e",
+                            "question_id": 2,
+                            "answer": [
+                                1
+                            ]
+                        },
+                        {
+                            "files": [],
+                            "_id": "6086fef00e4abe001358736f",
+                            "question_id": 3,
+                            "answer": [
+                                3
+                            ]
+                        },
+                        {
+                            "files": [],
+                            "_id": "6086fef00e4abe0013587370",
+                            "question_id": 4,
+                            "answer": [
+                                3
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "created_at": "2021-04-26T17:57:04.958Z"
+        },
+        {
+            "window_inactive": [],
+            "_id": "608700a90e4abe00135873ab",
+            "submitted_by": "604266899cc38f001347a5cc",
+            "sections": [
+                {
+                    "_id": "608700a90e4abe00135873ac",
+                    "section_id": 0,
+                    "questions": [
+                        {
+                            "files": [],
+                            "_id": "608700a90e4abe00135873ad",
+                            "question_id": 0,
+                            "answer": [
+                                3
+                            ]
+                        },
+                        {
+                            "files": [],
+                            "_id": "608700a90e4abe00135873ae",
+                            "question_id": 1,
+                            "answer": true
+                        },
+                        {
+                            "files": [],
+                            "_id": "608700a90e4abe00135873af",
+                            "question_id": 2,
+                            "answer": [
+                                1
+                            ]
+                        },
+                        {
+                            "files": [],
+                            "_id": "608700a90e4abe00135873b0",
+                            "question_id": 3,
+                            "answer": [
+                                3
+                            ]
+                        },
+                        {
+                            "files": [],
+                            "_id": "608700a90e4abe00135873b1",
+                            "question_id": 4,
+                            "answer": [
+                                3
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "created_at": "2021-04-26T18:04:25.149Z"
+        },
+        {
+            "window_inactive": [],
+            "_id": "608700ca0e4abe00135873b9",
+            "submitted_by": "60426c049cc38f001347a5d3",
+            "sections": [
+                {
+                    "_id": "608700ca0e4abe00135873ba",
+                    "section_id": 0,
+                    "questions": [
+                        {
+                            "files": [],
+                            "_id": "608700ca0e4abe00135873bb",
+                            "question_id": 0,
+                            "answer": [
+                                3
+                            ]
+                        },
+                        {
+                            "files": [],
+                            "_id": "608700ca0e4abe00135873bc",
+                            "question_id": 1,
+                            "answer": true
+                        },
+                        {
+                            "files": [],
+                            "_id": "608700ca0e4abe00135873bd",
+                            "question_id": 2,
+                            "answer": [
+                                1
+                            ]
+                        },
+                        {
+                            "files": [],
+                            "_id": "608700ca0e4abe00135873be",
+                            "question_id": 3,
+                            "answer": [
+                                3
+                            ]
+                        },
+                        {
+                            "files": [],
+                            "_id": "608700ca0e4abe00135873bf",
+                            "question_id": 4,
+                            "answer": [
+                                3
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "created_at": "2021-04-26T18:04:58.641Z"
+        },
+        {
+            "window_inactive": [],
+            "_id": "6087012a0e4abe00135873ec",
+            "submitted_by": "60459975fd1c110013f91154",
+            "sections": [
+                {
+                    "_id": "6087012a0e4abe00135873ed",
+                    "section_id": 0,
+                    "questions": [
+                        {
+                            "files": [],
+                            "_id": "6087012a0e4abe00135873ee",
+                            "question_id": 0,
+                            "answer": [
+                                3
+                            ]
+                        },
+                        {
+                            "files": [],
+                            "_id": "6087012a0e4abe00135873ef",
+                            "question_id": 1,
+                            "answer": true
+                        },
+                        {
+                            "files": [],
+                            "_id": "6087012a0e4abe00135873f0",
+                            "question_id": 2,
+                            "answer": [
+                                2
+                            ]
+                        },
+                        {
+                            "files": [],
+                            "_id": "6087012a0e4abe00135873f1",
+                            "question_id": 3,
+                            "answer": [
+                                3
+                            ]
+                        },
+                        {
+                            "files": [],
+                            "_id": "6087012a0e4abe00135873f2",
+                            "question_id": 4,
+                            "answer": [
+                                3
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "created_at": "2021-04-26T18:06:34.015Z"
+        },
+        {
+            "window_inactive": [
+                "2021-04-26T18:07:31.609Z",
+                "2021-04-26T18:07:38.787Z",
+                "2021-04-26T18:07:40.931Z",
+                "2021-04-26T18:07:49.043Z",
+                "2021-04-26T18:07:54.496Z",
+                "2021-04-26T18:07:55.818Z"
+            ],
+            "_id": "608701860e4abe0013587452",
+            "submitted_by": "604262969cc38f001347a5c4",
+            "sections": [
+                {
+                    "_id": "608701860e4abe0013587453",
+                    "section_id": 0,
+                    "questions": [
+                        {
+                            "files": [],
+                            "_id": "608701860e4abe0013587454",
+                            "question_id": 0,
+                            "answer": [
+                                3
+                            ]
+                        },
+                        {
+                            "files": [],
+                            "_id": "608701860e4abe0013587455",
+                            "question_id": 1,
+                            "answer": true
+                        },
+                        {
+                            "files": [],
+                            "_id": "608701860e4abe0013587456",
+                            "question_id": 2,
+                            "answer": [
+                                1
+                            ]
+                        },
+                        {
+                            "files": [],
+                            "_id": "608701860e4abe0013587457",
+                            "question_id": 3,
+                            "answer": [
+                                3
+                            ]
+                        },
+                        {
+                            "files": [],
+                            "_id": "608701860e4abe0013587458",
+                            "question_id": 4,
+                            "answer": [
+                                3
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "created_at": "2021-04-26T18:08:06.300Z"
+        },
+        {
+            "window_inactive": [
+                "2021-04-26T18:09:30.269Z",
+                "2021-04-26T18:09:39.869Z",
+                "2021-04-26T18:10:05.217Z"
+            ],
+            "_id": "608702130e4abe0013587483",
+            "submitted_by": "6046e2cf8eb3ba00131f6723",
+            "sections": [
+                {
+                    "_id": "608702130e4abe0013587484",
+                    "section_id": 0,
+                    "questions": [
+                        {
+                            "files": [],
+                            "_id": "608702130e4abe0013587485",
+                            "question_id": 0,
+                            "answer": [
+                                3
+                            ]
+                        },
+                        {
+                            "files": [],
+                            "_id": "608702130e4abe0013587486",
+                            "question_id": 1,
+                            "answer": true
+                        },
+                        {
+                            "files": [],
+                            "_id": "608702130e4abe0013587487",
+                            "question_id": 2,
+                            "answer": [
+                                1
+                            ]
+                        },
+                        {
+                            "files": [],
+                            "_id": "608702130e4abe0013587488",
+                            "question_id": 3,
+                            "answer": [
+                                3
+                            ]
+                        },
+                        {
+                            "files": [],
+                            "_id": "608702130e4abe0013587489",
+                            "question_id": 4,
+                            "answer": [
+                                3
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "created_at": "2021-04-26T18:10:27.184Z"
+        },
+        {
+            "window_inactive": [
+                "2021-04-26T18:05:24.924Z",
+                "2021-04-26T18:09:11.931Z",
+                "2021-04-26T18:09:39.841Z",
+                "2021-04-26T18:10:06.083Z",
+                "2021-04-26T18:10:44.455Z",
+                "2021-04-26T18:10:54.728Z",
+                "2021-04-26T18:10:59.976Z",
+                "2021-04-26T18:11:03.189Z"
+            ],
+            "_id": "608702480e4abe001358749f",
+            "submitted_by": "604308cefd1c110013f90c91",
+            "sections": [
+                {
+                    "_id": "608702480e4abe00135874a0",
+                    "section_id": 0,
+                    "questions": [
+                        {
+                            "files": [],
+                            "_id": "608702480e4abe00135874a1",
+                            "question_id": 0,
+                            "answer": [
+                                3
+                            ]
+                        },
+                        {
+                            "files": [],
+                            "_id": "608702480e4abe00135874a2",
+                            "question_id": 1,
+                            "answer": true
+                        },
+                        {
+                            "files": [],
+                            "_id": "608702480e4abe00135874a3",
+                            "question_id": 2,
+                            "answer": [
+                                1
+                            ]
+                        },
+                        {
+                            "files": [],
+                            "_id": "608702480e4abe00135874a4",
+                            "question_id": 3,
+                            "answer": [
+                                3
+                            ]
+                        },
+                        {
+                            "files": [],
+                            "_id": "608702480e4abe00135874a5",
+                            "question_id": 4,
+                            "answer": [
+                                3
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "created_at": "2021-04-26T18:11:20.181Z"
+        },
+        {
+            "window_inactive": [],
+            "_id": "608703230e4abe00135874f7",
+            "submitted_by": "6045f71945e68800131503ff",
+            "sections": [
+                {
+                    "_id": "608703230e4abe00135874f8",
+                    "section_id": 0,
+                    "questions": [
+                        {
+                            "files": [],
+                            "_id": "608703230e4abe00135874f9",
+                            "question_id": 0,
+                            "answer": [
+                                3
+                            ]
+                        },
+                        {
+                            "files": [],
+                            "_id": "608703230e4abe00135874fa",
+                            "question_id": 1,
+                            "answer": true
+                        },
+                        {
+                            "files": [],
+                            "_id": "608703230e4abe00135874fb",
+                            "question_id": 2,
+                            "answer": [
+                                1
+                            ]
+                        },
+                        {
+                            "files": [],
+                            "_id": "608703230e4abe00135874fc",
+                            "question_id": 3,
+                            "answer": [
+                                3
+                            ]
+                        },
+                        {
+                            "files": [],
+                            "_id": "608703230e4abe00135874fd",
+                            "question_id": 4,
+                            "answer": [
+                                3
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "created_at": "2021-04-26T18:14:59.637Z"
+        },
+        {
+            "window_inactive": [],
+            "_id": "608703260e4abe0013587505",
+            "submitted_by": "6042fd55fd1c110013f90c88",
+            "sections": [
+                {
+                    "_id": "608703260e4abe0013587506",
+                    "section_id": 0,
+                    "questions": [
+                        {
+                            "files": [],
+                            "_id": "608703260e4abe0013587507",
+                            "question_id": 0,
+                            "answer": [
+                                3
+                            ]
+                        },
+                        {
+                            "files": [],
+                            "_id": "608703260e4abe0013587508",
+                            "question_id": 1,
+                            "answer": true
+                        },
+                        {
+                            "files": [],
+                            "_id": "608703260e4abe0013587509",
+                            "question_id": 2,
+                            "answer": [
+                                2
+                            ]
+                        },
+                        {
+                            "files": [],
+                            "_id": "608703260e4abe001358750a",
+                            "question_id": 3,
+                            "answer": [
+                                3
+                            ]
+                        },
+                        {
+                            "files": [],
+                            "_id": "608703260e4abe001358750b",
+                            "question_id": 4,
+                            "answer": [
+                                3
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "created_at": "2021-04-26T18:15:02.694Z"
+        },
+        {
+            "window_inactive": [],
+            "_id": "608703580e4abe001358754d",
+            "submitted_by": "6020c27178f9ec001256a1ef",
+            "sections": [
+                {
+                    "_id": "608703580e4abe001358754e",
+                    "section_id": 0,
+                    "questions": [
+                        {
+                            "files": [],
+                            "_id": "608703580e4abe001358754f",
+                            "question_id": 0,
+                            "answer": [
+                                3
+                            ]
+                        },
+                        {
+                            "files": [],
+                            "_id": "608703580e4abe0013587550",
+                            "question_id": 1,
+                            "answer": true
+                        },
+                        {
+                            "files": [],
+                            "_id": "608703580e4abe0013587551",
+                            "question_id": 2,
+                            "answer": [
+                                1
+                            ]
+                        },
+                        {
+                            "files": [],
+                            "_id": "608703580e4abe0013587552",
+                            "question_id": 3,
+                            "answer": [
+                                3
+                            ]
+                        },
+                        {
+                            "files": [],
+                            "_id": "608703580e4abe0013587553",
+                            "question_id": 4,
+                            "answer": [
+                                3
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "created_at": "2021-04-26T18:15:52.538Z"
+        },
+        {
+            "window_inactive": [],
+            "_id": "608703590e4abe001358755b",
+            "submitted_by": "604261469cc38f001347a5c3",
+            "sections": [
+                {
+                    "_id": "608703590e4abe001358755c",
+                    "section_id": 0,
+                    "questions": [
+                        {
+                            "files": [],
+                            "_id": "608703590e4abe001358755d",
+                            "question_id": 0,
+                            "answer": [
+                                3
+                            ]
+                        },
+                        {
+                            "files": [],
+                            "_id": "608703590e4abe001358755e",
+                            "question_id": 1,
+                            "answer": true
+                        },
+                        {
+                            "files": [],
+                            "_id": "608703590e4abe001358755f",
+                            "question_id": 2,
+                            "answer": [
+                                1
+                            ]
+                        },
+                        {
+                            "files": [],
+                            "_id": "608703590e4abe0013587560",
+                            "question_id": 3,
+                            "answer": [
+                                3
+                            ]
+                        },
+                        {
+                            "files": [],
+                            "_id": "608703590e4abe0013587561",
+                            "question_id": 4,
+                            "answer": [
+                                3
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "created_at": "2021-04-26T18:15:53.161Z"
+        },
+        {
+            "window_inactive": [],
+            "_id": "6087036e0e4abe001358756f",
+            "submitted_by": "6045bfeefd1c110013f9122f",
+            "sections": [
+                {
+                    "_id": "6087036e0e4abe0013587570",
+                    "section_id": 0,
+                    "questions": [
+                        {
+                            "files": [],
+                            "_id": "6087036e0e4abe0013587571",
+                            "question_id": 0,
+                            "answer": [
+                                3
+                            ]
+                        },
+                        {
+                            "files": [],
+                            "_id": "6087036e0e4abe0013587572",
+                            "question_id": 1,
+                            "answer": true
+                        },
+                        {
+                            "files": [],
+                            "_id": "6087036e0e4abe0013587573",
+                            "question_id": 2,
+                            "answer": [
+                                2
+                            ]
+                        },
+                        {
+                            "files": [],
+                            "_id": "6087036e0e4abe0013587574",
+                            "question_id": 3,
+                            "answer": [
+                                3
+                            ]
+                        },
+                        {
+                            "files": [],
+                            "_id": "6087036e0e4abe0013587575",
+                            "question_id": 4,
+                            "answer": [
+                                3
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "created_at": "2021-04-26T18:16:14.257Z"
+        },
+        {
+            "window_inactive": [],
+            "_id": "6087039e0e4abe001358757d",
+            "submitted_by": "604276c7fd1c110013f90be7",
+            "sections": [
+                {
+                    "_id": "6087039e0e4abe001358757e",
+                    "section_id": 0,
+                    "questions": [
+                        {
+                            "files": [],
+                            "_id": "6087039e0e4abe001358757f",
+                            "question_id": 0,
+                            "answer": [
+                                3
+                            ]
+                        },
+                        {
+                            "files": [],
+                            "_id": "6087039e0e4abe0013587580",
+                            "question_id": 1,
+                            "answer": true
+                        },
+                        {
+                            "files": [],
+                            "_id": "6087039e0e4abe0013587581",
+                            "question_id": 2,
+                            "answer": [
+                                1
+                            ]
+                        },
+                        {
+                            "files": [],
+                            "_id": "6087039e0e4abe0013587582",
+                            "question_id": 3,
+                            "answer": [
+                                3
+                            ]
+                        },
+                        {
+                            "files": [],
+                            "_id": "6087039e0e4abe0013587583",
+                            "question_id": 4,
+                            "answer": [
+                                3
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "created_at": "2021-04-26T18:17:02.204Z"
+        },
+        {
+            "window_inactive": [],
+            "_id": "608703e50e4abe0013587597",
+            "submitted_by": "60472b028eb3ba00131f775f",
+            "sections": [
+                {
+                    "_id": "608703e50e4abe0013587598",
+                    "section_id": 0,
+                    "questions": [
+                        {
+                            "files": [],
+                            "_id": "608703e50e4abe0013587599",
+                            "question_id": 0,
+                            "answer": [
+                                3
+                            ]
+                        },
+                        {
+                            "files": [],
+                            "_id": "608703e50e4abe001358759a",
+                            "question_id": 1,
+                            "answer": true
+                        },
+                        {
+                            "files": [],
+                            "_id": "608703e50e4abe001358759b",
+                            "question_id": 2,
+                            "answer": [
+                                1
+                            ]
+                        },
+                        {
+                            "files": [],
+                            "_id": "608703e50e4abe001358759c",
+                            "question_id": 3,
+                            "answer": [
+                                3
+                            ]
+                        },
+                        {
+                            "files": [],
+                            "_id": "608703e50e4abe001358759d",
+                            "question_id": 4,
+                            "answer": [
+                                3
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "created_at": "2021-04-26T18:18:13.800Z"
+        },
+        {
+            "window_inactive": [],
+            "_id": "608704bb0e4abe00135875cd",
+            "submitted_by": "5f59d1c0ffed86001223916f",
+            "sections": [
+                {
+                    "_id": "608704bb0e4abe00135875ce",
+                    "section_id": 0,
+                    "questions": [
+                        {
+                            "files": [],
+                            "_id": "608704bb0e4abe00135875cf",
+                            "question_id": 0,
+                            "answer": [
+                                3
+                            ]
+                        },
+                        {
+                            "files": [],
+                            "_id": "608704bb0e4abe00135875d0",
+                            "question_id": 1,
+                            "answer": true
+                        },
+                        {
+                            "files": [],
+                            "_id": "608704bb0e4abe00135875d1",
+                            "question_id": 2,
+                            "answer": [
+                                1
+                            ]
+                        },
+                        {
+                            "files": [],
+                            "_id": "608704bb0e4abe00135875d2",
+                            "question_id": 3,
+                            "answer": [
+                                3
+                            ]
+                        },
+                        {
+                            "files": [],
+                            "_id": "608704bb0e4abe00135875d3",
+                            "question_id": 4,
+                            "answer": [
+                                3
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "created_at": "2021-04-26T18:21:47.447Z"
+        },
+        {
+            "window_inactive": [],
+            "_id": "608705660e4abe00135875db",
+            "submitted_by": "604275fdfd1c110013f90be6",
+            "sections": [
+                {
+                    "_id": "608705660e4abe00135875dc",
+                    "section_id": 0,
+                    "questions": [
+                        {
+                            "files": [],
+                            "_id": "608705660e4abe00135875dd",
+                            "question_id": 0,
+                            "answer": [
+                                3
+                            ]
+                        },
+                        {
+                            "files": [],
+                            "_id": "608705660e4abe00135875de",
+                            "question_id": 1,
+                            "answer": true
+                        },
+                        {
+                            "files": [],
+                            "_id": "608705660e4abe00135875df",
+                            "question_id": 2,
+                            "answer": [
+                                1
+                            ]
+                        },
+                        {
+                            "files": [],
+                            "_id": "608705660e4abe00135875e0",
+                            "question_id": 3,
+                            "answer": [
+                                3
+                            ]
+                        },
+                        {
+                            "files": [],
+                            "_id": "608705660e4abe00135875e1",
+                            "question_id": 4,
+                            "answer": [
+                                3
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "created_at": "2021-04-26T18:24:38.605Z"
+        },
+        {
+            "window_inactive": [
+                "2021-04-26T18:23:26.003Z",
+                "2021-04-26T18:23:47.699Z",
+                "2021-04-26T18:24:23.551Z",
+                "2021-04-26T18:24:35.141Z",
+                "2021-04-26T18:24:42.331Z",
+                "2021-04-26T18:24:54.787Z"
+            ],
+            "_id": "608705850e4abe00135875f7",
+            "submitted_by": "6044ee0ffd1c110013f9113a",
+            "sections": [
+                {
+                    "_id": "608705850e4abe00135875f8",
+                    "section_id": 0,
+                    "questions": [
+                        {
+                            "files": [],
+                            "_id": "608705850e4abe00135875f9",
+                            "question_id": 0,
+                            "answer": [
+                                3
+                            ]
+                        },
+                        {
+                            "files": [],
+                            "_id": "608705850e4abe00135875fa",
+                            "question_id": 1,
+                            "answer": true
+                        },
+                        {
+                            "files": [],
+                            "_id": "608705850e4abe00135875fb",
+                            "question_id": 2,
+                            "answer": [
+                                2
+                            ]
+                        },
+                        {
+                            "files": [],
+                            "_id": "608705850e4abe00135875fc",
+                            "question_id": 3,
+                            "answer": [
+                                3
+                            ]
+                        },
+                        {
+                            "files": [],
+                            "_id": "608705850e4abe00135875fd",
+                            "question_id": 4,
+                            "answer": [
+                                3
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "created_at": "2021-04-26T18:25:09.614Z"
+        },
+        {
+            "window_inactive": [],
+            "_id": "608705e30e4abe0013587621",
+            "submitted_by": "6044ec75fd1c110013f91139",
+            "sections": [
+                {
+                    "_id": "608705e30e4abe0013587622",
+                    "section_id": 0,
+                    "questions": [
+                        {
+                            "files": [],
+                            "_id": "608705e30e4abe0013587623",
+                            "question_id": 0,
+                            "answer": [
+                                3
+                            ]
+                        },
+                        {
+                            "files": [],
+                            "_id": "608705e30e4abe0013587624",
+                            "question_id": 1,
+                            "answer": true
+                        },
+                        {
+                            "files": [],
+                            "_id": "608705e30e4abe0013587625",
+                            "question_id": 2,
+                            "answer": [
+                                1
+                            ]
+                        },
+                        {
+                            "files": [],
+                            "_id": "608705e30e4abe0013587626",
+                            "question_id": 3,
+                            "answer": [
+                                3
+                            ]
+                        },
+                        {
+                            "files": [],
+                            "_id": "608705e30e4abe0013587627",
+                            "question_id": 4,
+                            "answer": [
+                                3
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "created_at": "2021-04-26T18:26:43.382Z"
+        },
+        {
+            "window_inactive": [
+                "2021-04-26T18:24:43.980Z",
+                "2021-04-26T18:25:00.156Z",
+                "2021-04-26T18:25:07.413Z",
+                "2021-04-26T18:25:43.602Z",
+                "2021-04-26T18:25:52.907Z",
+                "2021-04-26T18:26:33.674Z",
+                "2021-04-26T18:26:49.259Z",
+                "2021-04-26T18:27:01.437Z",
+                "2021-04-26T18:27:39.589Z"
+            ],
+            "_id": "608706260e4abe0013587636",
+            "submitted_by": "6042e99ffd1c110013f90c82",
+            "sections": [
+                {
+                    "_id": "608706260e4abe0013587637",
+                    "section_id": 0,
+                    "questions": [
+                        {
+                            "files": [],
+                            "_id": "608706260e4abe0013587638",
+                            "question_id": 0,
+                            "answer": [
+                                3
+                            ]
+                        },
+                        {
+                            "files": [],
+                            "_id": "608706260e4abe0013587639",
+                            "question_id": 1,
+                            "answer": true
+                        },
+                        {
+                            "files": [],
+                            "_id": "608706260e4abe001358763a",
+                            "question_id": 2,
+                            "answer": [
+                                1
+                            ]
+                        },
+                        {
+                            "files": [],
+                            "_id": "608706260e4abe001358763b",
+                            "question_id": 3,
+                            "answer": [
+                                3
+                            ]
+                        },
+                        {
+                            "files": [],
+                            "_id": "608706260e4abe001358763c",
+                            "question_id": 4,
+                            "answer": [
+                                3
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "created_at": "2021-04-26T18:27:50.321Z"
+        },
+        {
+            "window_inactive": [],
+            "_id": "608706bf0e4abe0013587676",
+            "submitted_by": "60432d2afd1c110013f90cb0",
+            "sections": [
+                {
+                    "_id": "608706bf0e4abe0013587677",
+                    "section_id": 0,
+                    "questions": [
+                        {
+                            "files": [],
+                            "_id": "608706bf0e4abe0013587678",
+                            "question_id": 0,
+                            "answer": [
+                                3
+                            ]
+                        },
+                        {
+                            "files": [],
+                            "_id": "608706bf0e4abe0013587679",
+                            "question_id": 1,
+                            "answer": true
+                        },
+                        {
+                            "files": [],
+                            "_id": "608706bf0e4abe001358767a",
+                            "question_id": 2,
+                            "answer": [
+                                1
+                            ]
+                        },
+                        {
+                            "files": [],
+                            "_id": "608706bf0e4abe001358767b",
+                            "question_id": 3,
+                            "answer": [
+                                3
+                            ]
+                        },
+                        {
+                            "files": [],
+                            "_id": "608706bf0e4abe001358767c",
+                            "question_id": 4,
+                            "answer": [
+                                3
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "created_at": "2021-04-26T18:30:23.049Z"
+        },
+        {
+            "window_inactive": [],
+            "_id": "6087073d0e4abe00135876b9",
+            "submitted_by": "6044d9fffd1c110013f90cd7",
+            "sections": [
+                {
+                    "_id": "6087073d0e4abe00135876ba",
+                    "section_id": 0,
+                    "questions": [
+                        {
+                            "files": [],
+                            "_id": "6087073d0e4abe00135876bb",
+                            "question_id": 0,
+                            "answer": [
+                                3
+                            ]
+                        },
+                        {
+                            "files": [],
+                            "_id": "6087073d0e4abe00135876bc",
+                            "question_id": 1,
+                            "answer": true
+                        },
+                        {
+                            "files": [],
+                            "_id": "6087073d0e4abe00135876bd",
+                            "question_id": 3,
+                            "answer": [
+                                3
+                            ]
+                        },
+                        {
+                            "files": [],
+                            "_id": "6087073d0e4abe00135876be",
+                            "question_id": 4,
+                            "answer": [
+                                3
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "created_at": "2021-04-26T18:32:29.913Z"
+        },
+        {
+            "window_inactive": [],
+            "_id": "608707890e4abe00135876e1",
+            "submitted_by": "604282f9fd1c110013f90be9",
+            "sections": [
+                {
+                    "_id": "608707890e4abe00135876e2",
+                    "section_id": 0,
+                    "questions": [
+                        {
+                            "files": [],
+                            "_id": "608707890e4abe00135876e3",
+                            "question_id": 0,
+                            "answer": [
+                                3
+                            ]
+                        },
+                        {
+                            "files": [],
+                            "_id": "608707890e4abe00135876e4",
+                            "question_id": 1,
+                            "answer": true
+                        },
+                        {
+                            "files": [],
+                            "_id": "608707890e4abe00135876e5",
+                            "question_id": 2,
+                            "answer": [
+                                2
+                            ]
+                        },
+                        {
+                            "files": [],
+                            "_id": "608707890e4abe00135876e6",
+                            "question_id": 3,
+                            "answer": [
+                                3
+                            ]
+                        },
+                        {
+                            "files": [],
+                            "_id": "608707890e4abe00135876e7",
+                            "question_id": 4,
+                            "answer": [
+                                3
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "created_at": "2021-04-26T18:33:45.832Z"
+        },
+        {
+            "window_inactive": [],
+            "_id": "608707c40e4abe00135876fd",
+            "submitted_by": "60449d38fd1c110013f90cd5",
+            "sections": [
+                {
+                    "_id": "608707c40e4abe00135876fe",
+                    "section_id": 0,
+                    "questions": [
+                        {
+                            "files": [],
+                            "_id": "608707c40e4abe00135876ff",
+                            "question_id": 0,
+                            "answer": [
+                                3
+                            ]
+                        },
+                        {
+                            "files": [],
+                            "_id": "608707c40e4abe0013587700",
+                            "question_id": 1,
+                            "answer": true
+                        },
+                        {
+                            "files": [],
+                            "_id": "608707c40e4abe0013587701",
+                            "question_id": 2,
+                            "answer": [
+                                2
+                            ]
+                        },
+                        {
+                            "files": [],
+                            "_id": "608707c40e4abe0013587702",
+                            "question_id": 3,
+                            "answer": [
+                                3
+                            ]
+                        },
+                        {
+                            "files": [],
+                            "_id": "608707c40e4abe0013587703",
+                            "question_id": 4,
+                            "answer": [
+                                3
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "created_at": "2021-04-26T18:34:44.041Z"
+        },
+        {
+            "window_inactive": [],
+            "_id": "608708ce0e4abe0013587719",
+            "submitted_by": "6044f6fafd1c110013f9113b",
+            "sections": [
+                {
+                    "_id": "608708ce0e4abe001358771a",
+                    "section_id": 0,
+                    "questions": [
+                        {
+                            "files": [],
+                            "_id": "608708ce0e4abe001358771b",
+                            "question_id": 0,
+                            "answer": [
+                                3
+                            ]
+                        },
+                        {
+                            "files": [],
+                            "_id": "608708ce0e4abe001358771c",
+                            "question_id": 1,
+                            "answer": true
+                        },
+                        {
+                            "files": [],
+                            "_id": "608708ce0e4abe001358771d",
+                            "question_id": 2,
+                            "answer": [
+                                2
+                            ]
+                        },
+                        {
+                            "files": [],
+                            "_id": "608708ce0e4abe001358771e",
+                            "question_id": 3,
+                            "answer": [
+                                3
+                            ]
+                        },
+                        {
+                            "files": [],
+                            "_id": "608708ce0e4abe001358771f",
+                            "question_id": 4,
+                            "answer": [
+                                3
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "created_at": "2021-04-26T18:39:10.690Z"
+        },
+        {
+            "window_inactive": [],
+            "_id": "608709840e4abe0013587727",
+            "submitted_by": "60430e61fd1c110013f90ca1",
+            "sections": [
+                {
+                    "_id": "608709840e4abe0013587728",
+                    "section_id": 0,
+                    "questions": [
+                        {
+                            "files": [],
+                            "_id": "608709840e4abe0013587729",
+                            "question_id": 0,
+                            "answer": [
+                                3
+                            ]
+                        },
+                        {
+                            "files": [],
+                            "_id": "608709840e4abe001358772a",
+                            "question_id": 1,
+                            "answer": true
+                        },
+                        {
+                            "files": [],
+                            "_id": "608709840e4abe001358772b",
+                            "question_id": 2,
+                            "answer": [
+                                2
+                            ]
+                        },
+                        {
+                            "files": [],
+                            "_id": "608709840e4abe001358772c",
+                            "question_id": 3,
+                            "answer": [
+                                3
+                            ]
+                        },
+                        {
+                            "files": [],
+                            "_id": "608709840e4abe001358772d",
+                            "question_id": 4,
+                            "answer": [
+                                3
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "created_at": "2021-04-26T18:42:12.019Z"
+        },
+        {
+            "window_inactive": [],
+            "_id": "60870b790e4abe001358778d",
+            "submitted_by": "60431f9ffd1c110013f90cab",
+            "sections": [
+                {
+                    "_id": "60870b790e4abe001358778e",
+                    "section_id": 0,
+                    "questions": [
+                        {
+                            "files": [],
+                            "_id": "60870b790e4abe001358778f",
+                            "question_id": 0,
+                            "answer": [
+                                3
+                            ]
+                        },
+                        {
+                            "files": [],
+                            "_id": "60870b790e4abe0013587790",
+                            "question_id": 1,
+                            "answer": true
+                        },
+                        {
+                            "files": [],
+                            "_id": "60870b790e4abe0013587791",
+                            "question_id": 2,
+                            "answer": [
+                                2
+                            ]
+                        },
+                        {
+                            "files": [],
+                            "_id": "60870b790e4abe0013587792",
+                            "question_id": 3,
+                            "answer": [
+                                3
+                            ]
+                        },
+                        {
+                            "files": [],
+                            "_id": "60870b790e4abe0013587793",
+                            "question_id": 4,
+                            "answer": [
+                                3
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "created_at": "2021-04-26T18:50:33.071Z"
+        },
+        {
+            "window_inactive": [],
+            "_id": "60870d620e4abe001358779b",
+            "submitted_by": "604264ad9cc38f001347a5cb",
+            "sections": [
+                {
+                    "_id": "60870d620e4abe001358779c",
+                    "section_id": 0,
+                    "questions": [
+                        {
+                            "files": [],
+                            "_id": "60870d620e4abe001358779d",
+                            "question_id": 0,
+                            "answer": [
+                                3
+                            ]
+                        },
+                        {
+                            "files": [],
+                            "_id": "60870d620e4abe001358779e",
+                            "question_id": 1,
+                            "answer": true
+                        },
+                        {
+                            "files": [],
+                            "_id": "60870d620e4abe001358779f",
+                            "question_id": 2,
+                            "answer": [
+                                1
+                            ]
+                        },
+                        {
+                            "files": [],
+                            "_id": "60870d620e4abe00135877a0",
+                            "question_id": 3,
+                            "answer": [
+                                3
+                            ]
+                        },
+                        {
+                            "files": [],
+                            "_id": "60870d620e4abe00135877a1",
+                            "question_id": 4,
+                            "answer": [
+                                3
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "created_at": "2021-04-26T18:58:42.413Z"
+        },
+        {
+            "window_inactive": [],
+            "_id": "60870f9c0e4abe00135877c5",
+            "submitted_by": "6045b7e3fd1c110013f91169",
+            "sections": [
+                {
+                    "_id": "60870f9c0e4abe00135877c6",
+                    "section_id": 0,
+                    "questions": [
+                        {
+                            "files": [],
+                            "_id": "60870f9c0e4abe00135877c7",
+                            "question_id": 0,
+                            "answer": [
+                                3
+                            ]
+                        },
+                        {
+                            "files": [],
+                            "_id": "60870f9c0e4abe00135877c8",
+                            "question_id": 1,
+                            "answer": true
+                        },
+                        {
+                            "files": [],
+                            "_id": "60870f9c0e4abe00135877c9",
+                            "question_id": 2,
+                            "answer": [
+                                1
+                            ]
+                        },
+                        {
+                            "files": [],
+                            "_id": "60870f9c0e4abe00135877ca",
+                            "question_id": 3,
+                            "answer": [
+                                3
+                            ]
+                        },
+                        {
+                            "files": [],
+                            "_id": "60870f9c0e4abe00135877cb",
+                            "question_id": 4,
+                            "answer": [
+                                3
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "created_at": "2021-04-26T19:08:12.883Z"
+        },
+        {
+            "window_inactive": [],
+            "_id": "608710020e4abe00135877d3",
+            "submitted_by": "60432640fd1c110013f90cac",
+            "sections": [
+                {
+                    "_id": "608710020e4abe00135877d4",
+                    "section_id": 0,
+                    "questions": [
+                        {
+                            "files": [],
+                            "_id": "608710020e4abe00135877d5",
+                            "question_id": 0,
+                            "answer": [
+                                3
+                            ]
+                        },
+                        {
+                            "files": [],
+                            "_id": "608710020e4abe00135877d6",
+                            "question_id": 1,
+                            "answer": true
+                        },
+                        {
+                            "files": [],
+                            "_id": "608710020e4abe00135877d7",
+                            "question_id": 2,
+                            "answer": [
+                                1
+                            ]
+                        },
+                        {
+                            "files": [],
+                            "_id": "608710020e4abe00135877d8",
+                            "question_id": 3,
+                            "answer": [
+                                3
+                            ]
+                        },
+                        {
+                            "files": [],
+                            "_id": "608710020e4abe00135877d9",
+                            "question_id": 4,
+                            "answer": [
+                                3
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "created_at": "2021-04-26T19:09:54.096Z"
+        },
+        {
+            "window_inactive": [],
+            "_id": "608713740e4abe0013587810",
+            "submitted_by": "60450e0bfd1c110013f91143",
+            "sections": [
+                {
+                    "_id": "608713740e4abe0013587811",
+                    "section_id": 0,
+                    "questions": [
+                        {
+                            "files": [],
+                            "_id": "608713740e4abe0013587812",
+                            "question_id": 0,
+                            "answer": [
+                                3
+                            ]
+                        },
+                        {
+                            "files": [],
+                            "_id": "608713740e4abe0013587813",
+                            "question_id": 1,
+                            "answer": true
+                        },
+                        {
+                            "files": [],
+                            "_id": "608713740e4abe0013587814",
+                            "question_id": 2,
+                            "answer": [
+                                1
+                            ]
+                        },
+                        {
+                            "files": [],
+                            "_id": "608713740e4abe0013587815",
+                            "question_id": 3,
+                            "answer": [
+                                3
+                            ]
+                        },
+                        {
+                            "files": [],
+                            "_id": "608713740e4abe0013587816",
+                            "question_id": 4,
+                            "answer": [
+                                3
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "created_at": "2021-04-26T19:24:36.127Z"
+        },
+        {
+            "window_inactive": [
+                "2021-04-26T20:08:14.174Z",
+                "2021-04-26T20:08:44.732Z"
+            ],
+            "_id": "60871ded0e4abe0013587843",
+            "submitted_by": "60431398fd1c110013f90ca9",
+            "sections": [
+                {
+                    "_id": "60871ded0e4abe0013587844",
+                    "section_id": 0,
+                    "questions": [
+                        {
+                            "files": [],
+                            "_id": "60871ded0e4abe0013587845",
+                            "question_id": 0,
+                            "answer": [
+                                3
+                            ]
+                        },
+                        {
+                            "files": [],
+                            "_id": "60871ded0e4abe0013587846",
+                            "question_id": 1,
+                            "answer": true
+                        },
+                        {
+                            "files": [],
+                            "_id": "60871ded0e4abe0013587847",
+                            "question_id": 2,
+                            "answer": [
+                                1
+                            ]
+                        },
+                        {
+                            "files": [],
+                            "_id": "60871ded0e4abe0013587848",
+                            "question_id": 3,
+                            "answer": [
+                                3
+                            ]
+                        },
+                        {
+                            "files": [],
+                            "_id": "60871ded0e4abe0013587849",
+                            "question_id": 4,
+                            "answer": [
+                                3
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "created_at": "2021-04-26T20:09:17.560Z"
+        },
+        {
+            "window_inactive": [
+                "2021-04-26T20:23:41.116Z"
+            ],
+            "_id": "608721b80e4abe0013587874",
+            "submitted_by": "60426b969cc38f001347a5d2",
+            "sections": [
+                {
+                    "_id": "608721b80e4abe0013587875",
+                    "section_id": 0,
+                    "questions": [
+                        {
+                            "files": [],
+                            "_id": "608721b80e4abe0013587876",
+                            "question_id": 0,
+                            "answer": [
+                                3
+                            ]
+                        },
+                        {
+                            "files": [],
+                            "_id": "608721b80e4abe0013587877",
+                            "question_id": 1,
+                            "answer": true
+                        },
+                        {
+                            "files": [],
+                            "_id": "608721b80e4abe0013587878",
+                            "question_id": 2,
+                            "answer": [
+                                2
+                            ]
+                        },
+                        {
+                            "files": [],
+                            "_id": "608721b80e4abe0013587879",
+                            "question_id": 3,
+                            "answer": [
+                                3
+                            ]
+                        },
+                        {
+                            "files": [],
+                            "_id": "608721b80e4abe001358787a",
+                            "question_id": 4,
+                            "answer": [
+                                3
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "created_at": "2021-04-26T20:25:28.630Z"
+        },
+        {
+            "window_inactive": [
+                "2021-04-27T00:36:18.613Z",
+                "2021-04-27T00:36:48.141Z",
+                "2021-04-27T00:37:29.850Z"
+            ],
+            "_id": "60875cd40e4abe0013587896",
+            "submitted_by": "60427dd1fd1c110013f90be8",
+            "sections": [
+                {
+                    "_id": "60875cd40e4abe0013587897",
+                    "section_id": 0,
+                    "questions": [
+                        {
+                            "files": [],
+                            "_id": "60875cd40e4abe0013587898",
+                            "question_id": 0,
+                            "answer": [
+                                3
+                            ]
+                        },
+                        {
+                            "files": [],
+                            "_id": "60875cd40e4abe0013587899",
+                            "question_id": 1,
+                            "answer": true
+                        },
+                        {
+                            "files": [],
+                            "_id": "60875cd40e4abe001358789a",
+                            "question_id": 2,
+                            "answer": [
+                                1
+                            ]
+                        },
+                        {
+                            "files": [],
+                            "_id": "60875cd40e4abe001358789b",
+                            "question_id": 3,
+                            "answer": [
+                                3
+                            ]
+                        },
+                        {
+                            "files": [],
+                            "_id": "60875cd40e4abe001358789c",
+                            "question_id": 4,
+                            "answer": [
+                                3
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "created_at": "2021-04-27T00:37:40.853Z"
+        },
+        {
+            "window_inactive": [
+                "2021-04-27T01:11:32.885Z"
+            ],
+            "_id": "608769540e4abe0013587901",
+            "submitted_by": "604c38b94be5d10013899762",
+            "sections": [
+                {
+                    "_id": "608769540e4abe0013587902",
+                    "section_id": 0,
+                    "questions": [
+                        {
+                            "files": [],
+                            "_id": "608769540e4abe0013587903",
+                            "question_id": 0,
+                            "answer": [
+                                3
+                            ]
+                        },
+                        {
+                            "files": [],
+                            "_id": "608769540e4abe0013587904",
+                            "question_id": 1,
+                            "answer": true
+                        },
+                        {
+                            "files": [],
+                            "_id": "608769540e4abe0013587905",
+                            "question_id": 2,
+                            "answer": [
+                                1
+                            ]
+                        },
+                        {
+                            "files": [],
+                            "_id": "608769540e4abe0013587906",
+                            "question_id": 3,
+                            "answer": [
+                                3
+                            ]
+                        },
+                        {
+                            "files": [],
+                            "_id": "608769540e4abe0013587907",
+                            "question_id": 4,
+                            "answer": [
+                                3
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "created_at": "2021-04-27T01:31:00.753Z"
+        },
+        {
+            "window_inactive": [
+                "2021-04-27T01:21:57.801Z",
+                "2021-04-27T01:22:23.404Z",
+                "2021-04-27T01:22:34.461Z",
+                "2021-04-27T01:22:50.627Z",
+                "2021-04-27T01:27:07.426Z",
+                "2021-04-27T01:28:44.076Z",
+                "2021-04-27T01:30:53.338Z",
+                "2021-04-27T01:31:44.477Z",
+                "2021-04-27T01:32:02.652Z"
+            ],
+            "_id": "608769980e4abe0013587915",
+            "submitted_by": "6043094afd1c110013f90c92",
+            "sections": [
+                {
+                    "_id": "608769980e4abe0013587916",
+                    "section_id": 0,
+                    "questions": [
+                        {
+                            "files": [],
+                            "_id": "608769980e4abe0013587917",
+                            "question_id": 0,
+                            "answer": [
+                                3
+                            ]
+                        },
+                        {
+                            "files": [],
+                            "_id": "608769980e4abe0013587918",
+                            "question_id": 1,
+                            "answer": true
+                        },
+                        {
+                            "files": [],
+                            "_id": "608769980e4abe0013587919",
+                            "question_id": 2,
+                            "answer": [
+                                2
+                            ]
+                        },
+                        {
+                            "files": [],
+                            "_id": "608769980e4abe001358791a",
+                            "question_id": 3,
+                            "answer": [
+                                3
+                            ]
+                        },
+                        {
+                            "files": [],
+                            "_id": "608769980e4abe001358791b",
+                            "question_id": 4,
+                            "answer": [
+                                3
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "created_at": "2021-04-27T01:32:08.813Z"
+        },
+        {
+            "window_inactive": [],
+            "_id": "60876a250e4abe0013587931",
+            "submitted_by": "60431697fd1c110013f90caa",
+            "sections": [
+                {
+                    "_id": "60876a250e4abe0013587932",
+                    "section_id": 0,
+                    "questions": [
+                        {
+                            "files": [],
+                            "_id": "60876a250e4abe0013587933",
+                            "question_id": 0,
+                            "answer": [
+                                3
+                            ]
+                        },
+                        {
+                            "files": [],
+                            "_id": "60876a250e4abe0013587934",
+                            "question_id": 1,
+                            "answer": true
+                        },
+                        {
+                            "files": [],
+                            "_id": "60876a250e4abe0013587935",
+                            "question_id": 2,
+                            "answer": [
+                                2
+                            ]
+                        },
+                        {
+                            "files": [],
+                            "_id": "60876a250e4abe0013587936",
+                            "question_id": 3,
+                            "answer": [
+                                3
+                            ]
+                        },
+                        {
+                            "files": [],
+                            "_id": "60876a250e4abe0013587937",
+                            "question_id": 4,
+                            "answer": [
+                                3
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "created_at": "2021-04-27T01:34:29.136Z"
+        },
+        {
+            "window_inactive": [
+                "2021-04-27T01:33:07.046Z",
+                "2021-04-27T01:34:06.311Z",
+                "2021-04-27T01:34:33.863Z",
+                "2021-04-27T01:34:46.059Z",
+                "2021-04-27T01:34:54.321Z",
+                "2021-04-27T01:36:18.465Z"
+            ],
+            "_id": "60876ad50e4abe001358794d",
+            "submitted_by": "6044dcfdfd1c110013f90cd8",
+            "sections": [
+                {
+                    "_id": "60876ad50e4abe001358794e",
+                    "section_id": 0,
+                    "questions": [
+                        {
+                            "files": [],
+                            "_id": "60876ad50e4abe001358794f",
+                            "question_id": 0,
+                            "answer": [
+                                3
+                            ]
+                        },
+                        {
+                            "files": [],
+                            "_id": "60876ad50e4abe0013587950",
+                            "question_id": 1,
+                            "answer": true
+                        },
+                        {
+                            "files": [],
+                            "_id": "60876ad50e4abe0013587951",
+                            "question_id": 2,
+                            "answer": [
+                                2
+                            ]
+                        },
+                        {
+                            "files": [],
+                            "_id": "60876ad50e4abe0013587952",
+                            "question_id": 3,
+                            "answer": [
+                                3
+                            ]
+                        },
+                        {
+                            "files": [],
+                            "_id": "60876ad50e4abe0013587953",
+                            "question_id": 4,
+                            "answer": [
+                                3
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "created_at": "2021-04-27T01:37:25.624Z"
+        },
+        {
+            "window_inactive": [
+                "2021-04-27T01:41:39.231Z",
+                "2021-04-27T01:42:00.715Z"
+            ],
+            "_id": "60876ccf0e4abe001358795b",
+            "submitted_by": "604581b7fd1c110013f91152",
+            "sections": [
+                {
+                    "_id": "60876ccf0e4abe001358795c",
+                    "section_id": 0,
+                    "questions": [
+                        {
+                            "files": [],
+                            "_id": "60876ccf0e4abe001358795d",
+                            "question_id": 0,
+                            "answer": [
+                                0
+                            ]
+                        },
+                        {
+                            "files": [],
+                            "_id": "60876ccf0e4abe001358795e",
+                            "question_id": 1,
+                            "answer": true
+                        },
+                        {
+                            "files": [],
+                            "_id": "60876ccf0e4abe001358795f",
+                            "question_id": 2,
+                            "answer": [
+                                3
+                            ]
+                        },
+                        {
+                            "files": [],
+                            "_id": "60876ccf0e4abe0013587960",
+                            "question_id": 3,
+                            "answer": [
+                                3
+                            ]
+                        },
+                        {
+                            "files": [],
+                            "_id": "60876ccf0e4abe0013587961",
+                            "question_id": 4,
+                            "answer": [
+                                3
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "created_at": "2021-04-27T01:45:51.964Z"
+        },
+        {
+            "window_inactive": [],
+            "_id": "60876d080e4abe0013587977",
+            "submitted_by": "60432856fd1c110013f90cae",
+            "sections": [
+                {
+                    "_id": "60876d080e4abe0013587978",
+                    "section_id": 0,
+                    "questions": [
+                        {
+                            "files": [],
+                            "_id": "60876d080e4abe0013587979",
+                            "question_id": 0,
+                            "answer": [
+                                0
+                            ]
+                        },
+                        {
+                            "files": [],
+                            "_id": "60876d080e4abe001358797a",
+                            "question_id": 1,
+                            "answer": true
+                        },
+                        {
+                            "files": [],
+                            "_id": "60876d080e4abe001358797b",
+                            "question_id": 2,
+                            "answer": [
+                                3
+                            ]
+                        },
+                        {
+                            "files": [],
+                            "_id": "60876d080e4abe001358797c",
+                            "question_id": 3,
+                            "answer": [
+                                3
+                            ]
+                        },
+                        {
+                            "files": [],
+                            "_id": "60876d080e4abe001358797d",
+                            "question_id": 4,
+                            "answer": [
+                                3
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "created_at": "2021-04-27T01:46:48.068Z"
+        },
+        {
+            "window_inactive": [],
+            "_id": "60876e680e4abe00135879cd",
+            "submitted_by": "6042fe75fd1c110013f90c8d",
+            "sections": [
+                {
+                    "_id": "60876e680e4abe00135879ce",
+                    "section_id": 0,
+                    "questions": [
+                        {
+                            "files": [],
+                            "_id": "60876e680e4abe00135879cf",
+                            "question_id": 0,
+                            "answer": [
+                                3
+                            ]
+                        },
+                        {
+                            "files": [],
+                            "_id": "60876e680e4abe00135879d0",
+                            "question_id": 1,
+                            "answer": true
+                        },
+                        {
+                            "files": [],
+                            "_id": "60876e680e4abe00135879d1",
+                            "question_id": 2,
+                            "answer": [
+                                0
+                            ]
+                        },
+                        {
+                            "files": [],
+                            "_id": "60876e680e4abe00135879d2",
+                            "question_id": 3,
+                            "answer": [
+                                3
+                            ]
+                        },
+                        {
+                            "files": [],
+                            "_id": "60876e680e4abe00135879d3",
+                            "question_id": 4,
+                            "answer": [
+                                3
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "created_at": "2021-04-27T01:52:40.792Z"
+        },
+        {
+            "window_inactive": [
+                "2021-04-27T01:52:22.209Z",
+                "2021-04-27T01:52:54.194Z",
+                "2021-04-27T01:53:18.365Z",
+                "2021-04-27T01:53:35.680Z",
+                "2021-04-27T01:53:51.864Z",
+                "2021-04-27T01:54:25.476Z",
+                "2021-04-27T01:55:40.567Z"
+            ],
+            "_id": "60876fbf0e4abe00135879e9",
+            "submitted_by": "60431058fd1c110013f90ca4",
+            "sections": [
+                {
+                    "_id": "60876fbf0e4abe00135879ea",
+                    "section_id": 0,
+                    "questions": [
+                        {
+                            "files": [],
+                            "_id": "60876fbf0e4abe00135879eb",
+                            "question_id": 0,
+                            "answer": [
+                                0
+                            ]
+                        },
+                        {
+                            "files": [],
+                            "_id": "60876fbf0e4abe00135879ec",
+                            "question_id": 1,
+                            "answer": true
+                        },
+                        {
+                            "files": [],
+                            "_id": "60876fbf0e4abe00135879ed",
+                            "question_id": 2,
+                            "answer": [
+                                3
+                            ]
+                        },
+                        {
+                            "files": [],
+                            "_id": "60876fbf0e4abe00135879ee",
+                            "question_id": 3,
+                            "answer": [
+                                3
+                            ]
+                        },
+                        {
+                            "files": [],
+                            "_id": "60876fbf0e4abe00135879ef",
+                            "question_id": 4,
+                            "answer": [
+                                3
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "created_at": "2021-04-27T01:58:23.503Z"
+        },
+        {
+            "window_inactive": [],
+            "_id": "608774240e4abe00135879f7",
+            "submitted_by": "60449dc9fd1c110013f90cd6",
+            "sections": [
+                {
+                    "_id": "608774240e4abe00135879f8",
+                    "section_id": 0,
+                    "questions": [
+                        {
+                            "files": [],
+                            "_id": "608774240e4abe00135879f9",
+                            "question_id": 0,
+                            "answer": [
+                                3
+                            ]
+                        },
+                        {
+                            "files": [],
+                            "_id": "608774240e4abe00135879fa",
+                            "question_id": 1,
+                            "answer": true
+                        },
+                        {
+                            "files": [],
+                            "_id": "608774240e4abe00135879fb",
+                            "question_id": 2,
+                            "answer": [
+                                2
+                            ]
+                        },
+                        {
+                            "files": [],
+                            "_id": "608774240e4abe00135879fc",
+                            "question_id": 3,
+                            "answer": [
+                                3
+                            ]
+                        },
+                        {
+                            "files": [],
+                            "_id": "608774240e4abe00135879fd",
+                            "question_id": 4,
+                            "answer": [
+                                3
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "created_at": "2021-04-27T02:17:08.738Z"
+        },
+        {
+            "window_inactive": [],
+            "_id": "608774a50e4abe0013587a05",
+            "submitted_by": "6045071cfd1c110013f91142",
+            "sections": [
+                {
+                    "_id": "608774a50e4abe0013587a06",
+                    "section_id": 0,
+                    "questions": [
+                        {
+                            "files": [],
+                            "_id": "608774a50e4abe0013587a07",
+                            "question_id": 0,
+                            "answer": [
+                                3
+                            ]
+                        },
+                        {
+                            "files": [],
+                            "_id": "608774a50e4abe0013587a08",
+                            "question_id": 1,
+                            "answer": true
+                        },
+                        {
+                            "files": [],
+                            "_id": "608774a50e4abe0013587a09",
+                            "question_id": 2,
+                            "answer": [
+                                2
+                            ]
+                        },
+                        {
+                            "files": [],
+                            "_id": "608774a50e4abe0013587a0a",
+                            "question_id": 3,
+                            "answer": [
+                                3
+                            ]
+                        },
+                        {
+                            "files": [],
+                            "_id": "608774a50e4abe0013587a0b",
+                            "question_id": 4,
+                            "answer": [
+                                3
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "created_at": "2021-04-27T02:19:17.671Z"
+        },
+        {
+            "window_inactive": [],
+            "_id": "608776220e4abe0013587a3d",
+            "submitted_by": "6044e305fd1c110013f90dee",
+            "sections": [
+                {
+                    "_id": "608776220e4abe0013587a3e",
+                    "section_id": 0,
+                    "questions": [
+                        {
+                            "files": [],
+                            "_id": "608776220e4abe0013587a3f",
+                            "question_id": 0,
+                            "answer": [
+                                3
+                            ]
+                        },
+                        {
+                            "files": [],
+                            "_id": "608776220e4abe0013587a40",
+                            "question_id": 1,
+                            "answer": true
+                        },
+                        {
+                            "files": [],
+                            "_id": "608776220e4abe0013587a41",
+                            "question_id": 2,
+                            "answer": [
+                                2
+                            ]
+                        },
+                        {
+                            "files": [],
+                            "_id": "608776220e4abe0013587a42",
+                            "question_id": 3,
+                            "answer": [
+                                3
+                            ]
+                        },
+                        {
+                            "files": [],
+                            "_id": "608776220e4abe0013587a43",
+                            "question_id": 4,
+                            "answer": [
+                                3
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "created_at": "2021-04-27T02:25:38.095Z"
+        },
+        {
+            "window_inactive": [],
+            "_id": "608776650e4abe0013587a4b",
+            "submitted_by": "6042ec91fd1c110013f90c83",
+            "sections": [
+                {
+                    "_id": "608776650e4abe0013587a4c",
+                    "section_id": 0,
+                    "questions": [
+                        {
+                            "files": [],
+                            "_id": "608776650e4abe0013587a4d",
+                            "question_id": 0,
+                            "answer": [
+                                3
+                            ]
+                        },
+                        {
+                            "files": [],
+                            "_id": "608776650e4abe0013587a4e",
+                            "question_id": 1,
+                            "answer": true
+                        },
+                        {
+                            "files": [],
+                            "_id": "608776650e4abe0013587a4f",
+                            "question_id": 2,
+                            "answer": [
+                                1
+                            ]
+                        },
+                        {
+                            "files": [],
+                            "_id": "608776650e4abe0013587a50",
+                            "question_id": 3,
+                            "answer": [
+                                3
+                            ]
+                        },
+                        {
+                            "files": [],
+                            "_id": "608776650e4abe0013587a51",
+                            "question_id": 4,
+                            "answer": [
+                                3
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "created_at": "2021-04-27T02:26:45.523Z"
+        }
+    ],
+    "__v": 2
+}
+[Finished in 1.0s]
